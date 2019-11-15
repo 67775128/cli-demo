@@ -1,0 +1,35 @@
+{
+  "name": "dan-cli-demo",
+  "version": "1.0.2",
+  "description": "",
+  "main": "./bin/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "xcli": "./bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/67775128/cli-demo.git"
+  },
+  "author": "XD",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/67775128/cli-demo/issues"
+  },
+  "homepage": "https://github.com/67775128/cli-demo#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "commander": "^3.0.2",
+    "cross-spawn": "^7.0.1",
+    "inquirer": "^7.0.0",
+    "osenv": "^0.1.5",
+    "yeoman-environment": "^2.5.0",
+    "yeoman-generator": "^4.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "webpack-cli": "^3.3.9"
+  }
+}
